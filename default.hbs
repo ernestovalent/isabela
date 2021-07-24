@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{@site.locale}}">
+<head>
+  {{!-- Basic metadata --}}
+  <meta charset="UTF-8">
+  <title>{{meta_title}}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{!-- Ghost SEO --}}
+  {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+  <div class="viewport">
+    <header>
+      <h1>This is header</h1>
+    </header>
+    <main>{{{body}}}</main>
+    <footer>
+      <h3>This is Footer</h3>
+    </footer>
+  </div>
+  
+{{!-- Ghost Footer tags--}}
+{{ghost_foot}}
+</body>
+</html>
